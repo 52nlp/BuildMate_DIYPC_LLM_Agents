@@ -648,7 +648,7 @@ def call_final_model(state: MessagesState):
     response = final_model.invoke(
         [
             SystemMessage("""
-        你是一名專業的電腦零組件組裝銷售顧問，請用專業，友善與熱情的方式回應。"""),
+        你是一名專業的電腦零組件組裝銷售顧問，請用專業，友善與熱情的口吻重新表達，若有產品價格資訊的話，請提供給使用者。"""),
             HumanMessage(last_ai_message.content),
         ]
     )
@@ -693,7 +693,7 @@ def call_final_model_2(state: MessagesState):
     )
     response.id = last_ai_message.id
     return {"messages": [response]}
-    
+
 def process_grader_result(state: MessagesState):
     messages = state["messages"]
     last_message = messages[-1]
