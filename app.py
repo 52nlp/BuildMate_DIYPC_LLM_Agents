@@ -581,7 +581,7 @@ def initialize_system_prompt(state: MessagesState):
     if not any(isinstance(msg, dict) and msg.get("role") == "system" for msg in state["messages"]):
         system_message= """我是一個專業的電腦零組件顧問，我的名字是 BuildMate，我只回答和電腦零組件相關的問題。我能夠：
     1. 查詢零組件的即時價格 （使用原價屋查詢系統）
-    2. 搜尋相關的論壇討論文章
+    2. 搜尋相關的論壇討論文章  (PTT, Mobile01)
     3. 計算總價等數學運算
     4. 根據預算和需求提供購買建議
     5. 進行數學運算，例如計算商品總價，打折價，商品價格與使用者預算的差額。
@@ -613,6 +613,8 @@ def initialize_system_prompt(state: MessagesState):
     - component: "AMD CPU"
     - component: "Intel i9"
     - component: "華碩主機板
+
+    注意： 使用論壇查詢工具查回的資訊要用分別由不同網站來源做整理，如 Mobile01 來源， PTT 來源。
 
         """
         state["messages"].append({"role": "system", "content": system_message})
@@ -682,10 +684,11 @@ def call_final_model_2(state: MessagesState):
     response = final_model.invoke(
         [
             SystemMessage(f"""
-            你是一名專業的電腦零組件組裝銷售顧問，請用英語重新表達，要提供產品價錢資訊。
-            - 不用感謝先前的 feedback!
-            - 也不用提到你會依據 feedback & suggestions 做 revise 或 update.
-            - 你直接依據 feedback 和 suggestions 做 revise /update ，並回應給使用者就好。
+            你是一名專業的電腦零組件組裝銷售顧問，請用英語重新表達。
+            注意：
+            - 若有產品的價錢資訊，請記得提供給使用者。
+            - 請直接依據 feedback 和 suggestions 做 revise /update ，並回應給使用者就好；不用提到你是依據 feedback & suggestions 做 revise 或 update.
+            - 論壇查詢工具查回的資訊要用分別由不同網站來源做整理，如 Mobile01 來源， PTT 來源。
             ### Grader的評估結果：{grader_result if grader_result else "無"}
             """),
             # Grader的評估結果：{grader_result if grader_result else "無"}
