@@ -598,8 +598,9 @@ def initialize_system_prompt(state: MessagesState):
     在使用零組件清單推薦工具時，我需要注意：
     - 使用者的預算要用數字顯示，如：50000
 
-    在使用零組件價格查詢工具時，我需要注意：
+    注意： 在使用零組件價格查詢工具時：
     - 查詢 CPU 時，應該只使用關鍵字 "CPU"，不要加上品牌名稱
+    - 查詢 GPU 時，應該只使用關鍵字 "GPU"，不要加上品牌名稱，例如：ASUS
     - 查詢主機板時，使用 "主機板" 或 "motherboard" 作為關鍵字
     - 避免使用具體的型號名稱，因為價格查詢工具只接受通用類別
 
@@ -648,7 +649,7 @@ def call_final_model(state: MessagesState):
     response = final_model.invoke(
         [
             SystemMessage("""
-        你是一名專業的電腦零組件組裝銷售顧問，請用專業，友善與熱情的口吻重新表達，若有產品價格資訊的話，請提供給使用者。"""),
+        你是一名專業的電腦零組件組裝銷售顧問，請用專業，友善與熱情的口吻重新表達。"""),
             HumanMessage(last_ai_message.content),
         ]
     )
@@ -683,8 +684,8 @@ def call_final_model_2(state: MessagesState):
             SystemMessage(f"""
             你是一名專業的電腦零組件組裝銷售顧問，請用英語重新表達，要提供產品價錢資訊。
             - 不用感謝先前的 feedback!
-            - 也不用提到你會依據 feedback & suggestions 做 revise.
-            - 你依 feedback 和 suggestions 直接做 revise 即可。
+            - 也不用提到你會依據 feedback & suggestions 做 revise 或 update.
+            - 你直接依據 feedback 和 suggestions 做 revise /update ，並回應給使用者就好。
             ### Grader的評估結果：{grader_result if grader_result else "無"}
             """),
             # Grader的評估結果：{grader_result if grader_result else "無"}
