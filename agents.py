@@ -217,6 +217,7 @@ def component_prompt_maker(component_name, context_text, require):
     prompt = f"""
     你是一個專業的電腦-{component_name}銷售機器人，請根據你的專業，
     根據客戶的需求，提供你覺得客戶可能需要的電腦-{component_name}給他。
+    挑選的 {component_name} 的價格要非常近使用者在 {component_name} 的預算分配。
     """
     
     prompt = prompt + """
@@ -225,9 +226,11 @@ def component_prompt_maker(component_name, context_text, require):
     目前已經有的電腦組合清單為：{component_list}
 
     請說明推薦原因與產品介紹，並提供產品名稱，範例的回饋訊息如下，請確保格式完全一致：
-    [ 推薦原因 ] ： 耐用性強，可以使用到最新規格的Intel CPU...
-    [ 產品名稱 ] ： IInter 第八代 i9 8C/16T 
-    [ 產品價格 ] ： 13000   
+    [ 零組件類別 ] ： CPU
+    [ 推薦原因 ] ： 耐用性強，可以使用到最新規格的Intel CPU，與使用者在 CPU 的預算上僅差距 500元...
+    [ 產品名稱 ] ： Intel 第八代 i9 8C/16T 
+    [ 產品價格 ] ： 13000
+    [ 產品價格與使用者預算分配的價差 ] ： 500
     
     另外有幾點請注意：
     1. 推薦產品要和已有的電腦組合清單相容！
@@ -237,8 +240,9 @@ def component_prompt_maker(component_name, context_text, require):
     """
 
     prompt = prompt + f"""
-    {component_name} 的報價資訊如下，請由以下報價挑選屬於{component_name}產品。
-    注意！不是{component_name} 的不要挑選。
+    {component_name} 的報價資訊如下，請參考報價單裡的產品價格。
+    注意！不是 {component_name} 的不要挑選。
+    注意！挑選的 {component_name} 的價格要非常接近使用者在 {component_name} 的預算分配。
     零組件報價：\n{context_text}\n
     """
 

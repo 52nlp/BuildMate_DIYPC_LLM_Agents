@@ -48,7 +48,7 @@ logger = logging.getLogger(__name__)
 
 class GetComponentListInput(BaseModel):
     """電腦組裝清單推薦的輸入模型"""
-    require: str = Field(description="使用者的電腦組裝需求，例如 '使用者預算: 40000元，用途：遊戲機器，各零組件的預算分配為 CPU:8000, Memory:4000'")
+    require: str = Field(description="使用者的電腦組裝需求，例如 '使用者總預算: 40000元，用途：遊戲機器，各零組件的分配到的預算為 CPU:8000元, Memory:4000元'")
 
 class GetComponentPriceInput(BaseModel):
     """匯率查詢工具的輸入模型"""
@@ -100,7 +100,7 @@ def item_crawler(value, class_string):
     
 # recommend tool
 class GetRequireListRecommendationTool(BaseTool):
-    """工具：獲取當前匯率"""
+    """工具：獲取電腦零組件推薦清單"""
     name: str = "get_require_list_recommendation"
     description: str = "取得電腦組裝推薦清單。"
     args_schema: Type[BaseModel] = GetComponentListInput
@@ -111,7 +111,7 @@ class GetRequireListRecommendationTool(BaseTool):
             component_dict = {'Mother board': '', '機殼': '', 'CPU': '', 'GPU': '', 
                   'Memory': '', 'Device': '', 'Power': '', 'Fan': ''}
             component_dict = {'Mother board': '', '機殼': '', 'CPU': '', 'GPU': '', 
-                  'Memory': '', 'Device': '', 'Power': ''}
+                  'Memory': '', '硬碟/SSD': '', 'Power': '','Fan': ''}
             agent_dict = {}
 
             for component_name in component_dict.keys():
@@ -126,7 +126,7 @@ class GetRequireListRecommendationTool(BaseTool):
                     price_list = item_crawler(15, "電源供應器")
                 elif component_name in ["顯示卡","顯卡","GPU"]: 
                     price_list = item_crawler(12, "顯示卡 VGA")
-                elif component_name in ["Device"]: 
+                elif component_name in ["硬碟/SSD"]: 
                     price_list = item_crawler(7, "固態硬碟 M.2｜SSD")
                 elif component_name in ["機殼"]: 
                     price_list = item_crawler(14, "機殼 CASE")
@@ -583,20 +583,23 @@ def initialize_system_prompt(state: MessagesState):
     1. 查詢零組件的即時價格 （使用原價屋查詢系統）
     2. 搜尋相關的論壇討論文章  (PTT, Mobile01)
     3. 計算總價等數學運算
-    4. 根據預算和需求提供購買建議
+    4. 根據預算和需求提供購買清單建議
     5. 進行數學運算，例如計算商品總價，打折價，商品價格與使用者預算的差額。
-    注意： 當使用者有給整台電腦的總預算要詢問推薦時，你要先做預算的分配，將總預算分配至以下零組件：
-    - Mother board
-    - 機殼
-    - CPU
-    - GPU
-    - Memory
-    - 硬碟/SSD
-    - Power
-    而不同使用用途的電腦，分配的比例也會有所不同！
     
-    在使用零組件清單推薦工具時，我需要注意：
+    注意： 在使用電腦零組件清單推推薦清單工具時：
+    - 當使用者有給整台電腦的總預算要詢問清單推薦時，你要先做預算的分配，將總預算分配至以下零組件：
+        - Mother board
+        - 機殼
+        - CPU
+        - GPU
+        - Memory
+        - 硬碟/SSD
+        - Power
+        - Fan (機殼)
+    - 不同用途的電腦，各零組件的預算分配的比例也會有所不同！
+    - 各零組件分配到的預算加總後要小於使用者的總預算!
     - 使用者的預算要用數字顯示，如：50000
+
 
     注意： 在使用零組件價格查詢工具時：
     - 查詢 CPU 時，應該只使用關鍵字 "CPU"，不要加上品牌名稱
@@ -685,11 +688,13 @@ def call_final_model_2(state: MessagesState):
         [
             SystemMessage(f"""
             你是一名專業的電腦零組件組裝銷售顧問，請用英語重新表達。
+   
             注意：
             - 若有產品的價錢資訊，請記得提供給使用者。
             - 請直接依據 feedback 和 suggestions 做 revise /update ，並回應給使用者就好；不用提到你是依據 feedback & suggestions 做 revise 或 update.
+            - 不要提到類似的句子：Certainly! Below is the revised response with the requested improvements
             - 論壇查詢工具查回的資訊要用分別由不同網站來源做整理，如 Mobile01 來源， PTT 來源。
-            ### Grader的評估結果：{grader_result if grader_result else "無"}
+
             """),
             # Grader的評估結果：{grader_result if grader_result else "無"}
             HumanMessage(last_ai_message.content),
