@@ -168,12 +168,7 @@ def parser_message(message):
         "name": r"\[ 產品名稱 \] ：\s*(.*?)\s*\n",
         "price": r"\[ 產品價格 \] ：\s*(\d+)"
     }
-    patterns = {
-   
-    "reason": r"@@@推薦原因@@@：?\s*(.*?)\s*(?=@@@|$)",
-    "name": r"@@@產品名稱@@@：?\s*(.*?)\s*(?=@@@|$)", 
-    "price": r"@@@產品價格@@@：?\s*(\d+)"
-    }   
+    # albert 修改的版本，因為 LLM 的輸出有時會缺少空格
     patterns = {
     "reason": r"\[\s*推薦原因\s*\]([^@]+)",
     "name": r"\[\s*產品名稱\s*\] ：\s*(.*?)\s*\n",

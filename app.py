@@ -648,7 +648,7 @@ def call_final_model(state: MessagesState):
     response = final_model.invoke(
         [
             SystemMessage("""
-        你是一名專業的電腦零組件組裝銷售顧問。"""),
+        你是一名專業的電腦零組件組裝銷售顧問，請用專業，友善與熱情的方式回應。"""),
             HumanMessage(last_ai_message.content),
         ]
     )
@@ -693,6 +693,7 @@ def call_final_model_2(state: MessagesState):
     )
     response.id = last_ai_message.id
     return {"messages": [response]}
+    
 def process_grader_result(state: MessagesState):
     messages = state["messages"]
     last_message = messages[-1]
@@ -728,17 +729,15 @@ builder = StateGraph(MessagesState)
 builder.add_node("initialize_system_prompt", lambda state: initialize_system_prompt(state))
 builder.add_node("agent", call_model)
 builder.add_node("tools", tool_node)
-# add a separate final node
-#builder.add_node("grader", call_final_model)
+
 builder.add_node("process_grader", process_grader_result)  # 新增節點
 
 builder.add_node("final", call_final_model)
 builder.add_node("final_2", call_final_model_2)
-# Connect the initialization node to the agent node
+
 builder.add_edge(START, "initialize_system_prompt")
 builder.add_edge("initialize_system_prompt", "agent")
 
-#builder.add_edge(START, "agent")
 
 builder.add_conditional_edges(
     "agent",
@@ -755,15 +754,6 @@ builder.add_conditional_edges(
         "not useful": "final_2",
     },
 )
-# builder.add_conditional_edges(
-#     "final",
-#     grade_generation_grounded_in_documents_and_question,
-#     {
-#         #"not supported": GENERATE,
-#         "useful": "final_2",
-#         "not useful": "agent",
-#     },
-# )
 
 builder.add_edge("final_2", END)
 
