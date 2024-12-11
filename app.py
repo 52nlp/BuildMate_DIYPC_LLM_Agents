@@ -6,7 +6,7 @@ from langchain.schema.runnable.config import RunnableConfig
 from langchain_core.messages import HumanMessage
 from langchain_community.document_loaders import JSONLoader
 from langchain.globals import set_debug, set_verbose
-set_verbose(True)
+#set_verbose(True)
 import json
 import numpy as np
 import logging
@@ -111,7 +111,7 @@ class GetRequireListRecommendationTool(BaseTool):
             component_dict = {'Mother board': '', '機殼': '', 'CPU': '', 'GPU': '', 
                   'Memory': '', 'Device': '', 'Power': '', 'Fan': ''}
             component_dict = {'Mother board': '', '機殼': '', 'CPU': '', 'GPU': '', 
-                  'Memory': '', '硬碟/SSD': '', 'Power': '','Fan': ''}
+                  'Memory': '', '硬碟/SSD': '', 'Power': ''}
             agent_dict = {}
 
             for component_name in component_dict.keys():
@@ -464,7 +464,7 @@ headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36'}
 #tools = [get_weather]
 model = ChatOpenAI(model_name="gpt-4o-mini-2024-07-18", temperature=0)
-final_model = ChatOpenAI(model_name="gpt-4o-2024-11-20", temperature=0)
+final_model = ChatOpenAI(model_name="gpt-4o-2024-11-20", temperature=0, streaming=True)
 
 model = model.bind_tools(tools)
 # NOTE: this is where we're adding a tag that we'll can use later to filter the model stream events to only the model called in the final node.
@@ -773,16 +773,35 @@ graph = builder.compile(checkpointer=memory)
 
 @cl.on_message
 async def on_message(msg: cl.Message):
-    config = {"configurable": {"thread_id": cl.context.session.id}}
-    cb = cl.LangchainCallbackHandler()
-    final_answer = cl.Message(content="")
-    
-    for msg, metadata in graph.stream({"messages": [HumanMessage(content=msg.content)]}, stream_mode="messages", config=RunnableConfig(callbacks=[cb], **config)):
-        if (
-            msg.content
-            and not isinstance(msg, HumanMessage)
-            and metadata["langgraph_node"] in [ "final_2"]
-        ):
-            await final_answer.stream_token(msg.content)
+    await cl.Message(content="處理中...").send()
+    try:
+        config = {"configurable": {"thread_id": cl.context.session.id}}
+        cb = cl.LangchainCallbackHandler()
+        final_answer = cl.Message(content="")
+        
+        logger.debug("Starting message processing")
+        for msg, metadata in graph.stream({"messages": [HumanMessage(content=msg.content)]}, stream_mode="messages", config=RunnableConfig(callbacks=[cb], **config)):
+            if msg.content and not isinstance(msg, HumanMessage) and metadata["langgraph_node"] =="final_2":
+                await final_answer.stream_token(msg.content)
+                logger.debug(f"Streamed token: {msg.content[:50]}...")
 
-    await final_answer.send()
+        await final_answer.send()
+        logger.debug("Message sent successfully")
+        
+    except Exception as e:
+        logger.error(f"Error in on_message: {e}")
+        await cl.Message(content="抱歉，處理訊息時發生錯誤").send()
+# async def on_message(msg: cl.Message):
+#     config = {"configurable": {"thread_id": cl.context.session.id}}
+#     cb = cl.LangchainCallbackHandler()
+#     final_answer = cl.Message(content="")
+#     logger.debug("Starting message processing")
+#     for msg, metadata in graph.stream({"messages": [HumanMessage(content=msg.content)]}, stream_mode="messages", config=RunnableConfig(callbacks=[cb], **config)):
+#         if (
+#             msg.content
+#             and not isinstance(msg, HumanMessage)
+#             and metadata["langgraph_node"] in [ "final_2"]
+#         ):
+#             await final_answer.stream_token(msg.content)
+
+#     await final_answer.send()

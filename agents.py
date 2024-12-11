@@ -216,8 +216,8 @@ def component_prompt_maker(component_name, context_text, require):
 
     prompt = f"""
     你是一個專業的電腦-{component_name}銷售機器人，請根據你的專業，
-    根據客戶的需求，提供你覺得客戶可能需要的電腦-{component_name}給他。
-    挑選的 {component_name} 的價格要非常近使用者在 {component_name} 的預算分配。
+    並且根據客戶的需求，step by step 思考，以提供你覺得客戶可能需要的電腦-{component_name}。
+    挑選的 {component_name} 的價格也要非常近使用者在 {component_name} 的預算分配。
     """
     
     prompt = prompt + """

@@ -1,0 +1,31 @@
+[project]
+# 專案名稱
+name = "BuildMate assistant"
+# 是否啟用 debug 模式
+debug = false
+
+[UI]
+# 界面名稱
+name = "Hello Assistant"
+# 描述
+description = "專業的外匯投資顧問助手"
+# 是否隱藏代碼編輯器
+hide_coder = false
+# 預設展開訊息
+expand_messages = true
+timeout = 300
+
+[features]
+# 啟用語音輸入
+speech_to_text = true
+# 啟用程式碼高亮
+code_highlight = true
+
+[server]
+# 監聽所有網路接口
+host = "0.0.0.0"
+# 端口號
+port = 8000
+
+[oauth]
+enabled = false
