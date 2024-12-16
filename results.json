@@ -1,0 +1,1262 @@
+{
+    "請問30000元內能組一台什麼樣的主機，主要是玩LOL和看Netflix用？": {
+        "Mother board": {
+            "reason": "這款主機板支援AMD處理器，穩定性高，適合遊戲及日常使用。",
+            "name": "MSI B450M PRO-VDH MAX",
+            "price": "3000"
+        },
+        "Case": {
+            "reason": "這個配置能夠流暢運行LOL和Netflix，並具備升級潛力。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "1200"
+        },
+        "CPU": {
+            "reason": "性能優越，適合遊戲及多媒體使用，具備集成顯示卡可省去獨立顯卡的需求。",
+            "name": "AMD Ryzen 5 5600G",
+            "price": "7500"
+        },
+        "GPU": {
+            "reason": "這款顯示卡性能足以應對LOL，且適合多媒體播放。",
+            "name": "NVIDIA GeForce GTX 1650",
+            "price": "8000"
+        },
+        "Memory": {
+            "reason": "這款記憶體提供穩定的性能，適合遊戲和串流觀看，性價比高。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "2000"
+        },
+        "Device": {
+            "reason": "性能穩定，適合LOL及影片串流，性價比高。",
+            "name": "MSI B450M PRO-VDH MAX",
+            "price": "3000"
+        },
+        "Power": {
+            "reason": "穩定供電，保證系統性能，並具備良好的散熱效果。",
+            "name": "Corsair CV450 450W 80 PLUS Bronze",
+            "price": "1500"
+        },
+        "Fan": {
+            "reason": "提供良好的散熱性能，適合長時間運行遊戲和影音串流。",
+            "name": "Cooler Master Hyper 212 LED",
+            "price": "1200"
+        }
+    },
+    "有推薦的組合嗎？預算大概在50000元，要能處理攝影後製和輕遊戲，如：軒轅劍7。": {
+        "Mother board": {
+            "reason": "適合攝影後製及輕遊戲，穩定性高，擴充性強。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "8500"
+        },
+        "Case": {
+            "reason": "設計優雅，通風良好，適合高效能配置。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "2000"
+        },
+        "CPU": {
+            "reason": "具備高效能與多核心，適合處理攝影後製及輕遊戲需求。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "8500"
+        },
+        "GPU": {
+            "reason": "高效能的顯示卡，適合攝影後製和輕度遊戲，性價比優良。",
+            "name": "NVIDIA GeForce GTX 1660 Super",
+            "price": "8000"
+        },
+        "Memory": {
+            "reason": "16GB容量，適合攝影後製與輕遊戲，性能穩定。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "2500"
+        },
+        "Device": {
+            "reason": "此組合性能均衡，適合攝影後製及輕遊戲，性價比高。",
+            "name": "電源供應器（Corsair CV550 550W）",
+            "price": "2000"
+        },
+        "Power": {
+            "reason": "具備良好性能，適合攝影後製與輕度遊戲。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "8500"
+        },
+        "Fan": {
+            "reason": "這款風扇散熱效果好，靜音設計適合長時間攝影後製使用。",
+            "name": "Cooler Master Hyper 212 Black Edition",
+            "price": "1600"
+        }
+    },
+    "碩士生研究用的電腦，預算約70000元，需要跑深度學習模型，有沒有建議配置？": {
+        "Mother board": {
+            "reason": "支持高效能CPU和多顯示卡，適合深度學習。",
+            "name": "ASUS ROG Strix X570-E Gaming",
+            "price": "17000"
+        },
+        "Case": {
+            "reason": "強大的運算能力，適合深度學習模型處理。",
+            "name": "AMD Ryzen 9 5900X",
+            "price": "16000"
+        },
+        "CPU": {
+            "reason": "性能高且價格合理，適合深度學習需求。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "12000"
+        },
+        "GPU": {
+            "reason": "性能良好且價格更低，適合深度學習需求。",
+            "name": "NVIDIA GeForce GTX 1650 Super",
+            "price": "6000"
+        },
+        "Memory": {
+            "reason": "適合深度學習，容量大且速度快，能有效提升模型訓練效率。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "5500"
+        },
+        "Device": {
+            "reason": "高效能電源供應器，穩定運行高負載的深度學習模型。",
+            "name": "Corsair RM850x 850W",
+            "price": "7500"
+        },
+        "Power": {
+            "reason": "強效散熱，確保長時間運行穩定，適合深度學習。",
+            "name": "Noctua NH-D15",
+            "price": "3500"
+        },
+        "Fan": {
+            "reason": "高效能散熱，適合長時間運行深度學習模型，確保穩定性。",
+            "name": "Noctua NF-A14 PWM",
+            "price": "2500"
+        }
+    },
+    "預算大約20000元，尋求一台能寫報告和上網的簡易電腦，要求瀏覽器多開流暢。": {
+        "Mother board": {
+            "reason": "具備穩定的性能，支持多開瀏覽器，適合日常辦公用途。",
+            "name": "華碩 PRIME B560M-A",
+            "price": "5000"
+        },
+        "Case": {
+            "reason": "可以選擇更經濟的處理器以降低成本。",
+            "name": "Intel Core i3-10100",
+            "price": "4000"
+        },
+        "CPU": {
+            "reason": "性能足夠，能流暢處理寫報告和上網需求。",
+            "name": "Intel Celeron G5900",
+            "price": "800"
+        },
+        "GPU": {
+            "reason": "高效能的記憶體可支援多任務，讓瀏覽器多開流暢。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "2000"
+        },
+        "Memory": {
+            "reason": "適合多開瀏覽器，能流暢執行報告編輯，性價比高。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "2000"
+        },
+        "Device": {
+            "reason": "經濟實惠，性能穩定，適合多開瀏覽器和文書處理。",
+            "name": "ADATA SU635 480GB SSD",
+            "price": "1500"
+        },
+        "Power": {
+            "reason": "這款電源穩定可靠，能支持多開瀏覽器，適合寫報告和上網需求。",
+            "name": "海盜船 RM550x 550W",
+            "price": "3500"
+        },
+        "Fan": {
+            "reason": "提供良好的散熱，保持系統穩定，適合長時間使用的環境。",
+            "name": "Cooler Master Hyper 212 Black Edition",
+            "price": "1500"
+        }
+    },
+    "想請問80000元左右，能組出來什麼級別的遊戲主機？想玩些新遊戲，畫質要好。": {
+        "Mother board": {
+            "reason": "支援最新的AMD CPU，擁有良好的擴展性與穩定性。",
+            "name": "ASUS ROG Strix B550-F Gaming",
+            "price": "5500"
+        },
+        "Case": {
+            "reason": "這款機殼擁有良好的散熱性能和擴展性，適合高效能硬體。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "1990"
+        },
+        "CPU": {
+            "reason": "性能強勁，適合高畫質遊戲，並支持超頻。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "8000"
+        },
+        "GPU": {
+            "reason": "高效能顯卡，能夠流暢運行新遊戲，畫質極佳。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "18900"
+        },
+        "Memory": {
+            "reason": "高頻率和低延遲，適合遊戲和多任務處理，提升整體性能。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "3200"
+        },
+        "Device": {
+            "reason": "穩定供電，支持高效能顯示卡，確保系統運行順暢。",
+            "name": "Corsair RM650x",
+            "price": "4500"
+        },
+        "Power": {
+            "reason": "能提供穩定的電力，支持高性能硬體，適合遊戲需求。",
+            "name": "Corsair RM650x",
+            "price": "4500"
+        },
+        "Fan": {
+            "reason": "提供良好的散熱效果，靜音設計適合遊戲使用。",
+            "name": "Cooler Master Hyper 212 Black Edition",
+            "price": "1500"
+        }
+    },
+    "工作需要，我要一台能跑Solidworks和AutoCAD的工作站，預算大概60000元，有建議嗎？": {
+        "Mother board": {
+            "reason": "支援高效能CPU和GPU，適合運行Solidworks和AutoCAD，擴展性強。",
+            "name": "ASUS Pro WS X299 Sage",
+            "price": "12000"
+        },
+        "Case": {
+            "reason": "高效能CPU適合運行Solidworks和AutoCAD，穩定性與耐用性俱佳。",
+            "name": "Intel Core i9-10920X",
+            "price": "13000"
+        },
+        "CPU": {
+            "reason": "性能足夠，適合運行Solidworks和AutoCAD，價格更實惠。",
+            "name": "Intel 第九代 i5-9600K",
+            "price": "6000"
+        },
+        "GPU": {
+            "reason": "性能足夠支援Solidworks和AutoCAD，價格更具競爭力。",
+            "name": "NVIDIA GeForce GTX 1660 Super",
+            "price": "8000"
+        },
+        "Memory": {
+            "reason": "高效能記憶體，確保流暢運行大型應用程式。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "6000"
+        },
+        "Device": {
+            "reason": "高效能電源供應，穩定支援高端硬件運行。",
+            "name": "Corsair RM850x 850W 80 Plus Gold",
+            "price": "5000"
+        },
+        "Power": {
+            "reason": "穩定性高，適合運行Solidworks和AutoCAD，並具備良好的擴展性。",
+            "name": "電源供應器 Seasonic Focus GX-850 (850W)",
+            "price": "5000"
+        },
+        "Fan": {
+            "reason": "高效能散熱，確保長時間運行穩定，適合工作站使用。",
+            "name": "Noctua NH-D15",
+            "price": "4000"
+        }
+    },
+    "有沒有推薦的遊戲主機配置？預算在45000元，想要玩 POE、APEX等槍戰、LOL。": {
+        "Mother board": {
+            "reason": "支援最新的AMD Ryzen CPU，適合高效能遊戲，性價比高。",
+            "name": "ASUS TUF Gaming B550-PLUS",
+            "price": "4500"
+        },
+        "Case": {
+            "reason": "強大的遊戲性能，適合高畫質遊戲，且具備良好的散熱系統。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "8500"
+        },
+        "CPU": {
+            "reason": "性能強勁，適合玩各類型遊戲，性價比高。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "12000"
+        },
+        "GPU": {
+            "reason": "GTX 1660 Super性能優良，適合POE、APEX等遊戲，價格更低。",
+            "name": "NVIDIA GeForce GTX 1650",
+            "price": "5000"
+        },
+        "Memory": {
+            "reason": "高速穩定，適合遊戲需求，容量足夠多任務處理。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "3000"
+        },
+        "Device": {
+            "reason": "提供穩定的電力供應，確保系統運行流暢，適合遊戲需求。",
+            "name": "Corsair RM650x 650W 全模組化電源",
+            "price": "4000"
+        },
+        "Power": {
+            "reason": "高效能的顯示卡可流暢運行各類遊戲，特別適合POE、APEX和LOL等。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "12000"
+        },
+        "Fan": {
+            "reason": "這款風扇具備高效散熱性能，適合遊戲主機，保障穩定運行。",
+            "name": "Cooler Master Hyper 212 RGB",
+            "price": "1800"
+        }
+    },
+    "預算約45000元，需要一台主要用來跑Adobe系列軟體的電腦，特別是Photoshop和After Effects。": {
+        "Mother board": {
+            "reason": "支援高效能CPU和多個GPU，適合運行Adobe軟體，穩定性高。",
+            "name": "ASUS ROG Strix Z490-E Gaming",
+            "price": "12000"
+        },
+        "Case": {
+            "reason": "高效能的CPU，適合處理Photoshop和After Effects的多重任務。",
+            "name": "Intel Core i7-10700K",
+            "price": "12000"
+        },
+        "CPU": {
+            "reason": "性能足夠且價格更低，適合Adobe系列。",
+            "name": "Intel Core i7-10700K",
+            "price": "12000"
+        },
+        "GPU": {
+            "reason": "性能足夠支持Adobe軟體，價格更具性價比。",
+            "name": "NVIDIA GeForce GTX 1660 Super",
+            "price": "6000"
+        },
+        "Memory": {
+            "reason": "高頻率和大容量，適合Adobe軟體流暢運行，提升多任務處理能力。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "8000"
+        },
+        "Device": {
+            "reason": "這款顯示卡提供優秀的渲染性能，適合Adobe軟體，特別是After Effects。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "15000"
+        },
+        "Power": {
+            "reason": "提供穩定電力，支持高效能GPU，適合影像處理需求。",
+            "name": "Corsair RM750x 750W 全模組化電源供應器",
+            "price": "5000"
+        },
+        "Fan": {
+            "reason": "高效能散熱設計，確保CPU在運行Adobe軟體時保持最佳效能。",
+            "name": "Noctua NH-D15",
+            "price": "4500"
+        }
+    },
+    "我需要一台適合股市分析的電腦，預算大概30000元，需要大量運算和多螢幕，有什麼好提議？": {
+        "Mother board": {
+            "reason": "提供足夠的功能，兼容性良好，價格更具競爭力。",
+            "name": "ASUS TUF Gaming B460M-Plus",
+            "price": "4500"
+        },
+        "Case": {
+            "reason": "提供良好的散熱性能和擴展性，適合多螢幕和密集運算需求。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "1500"
+        },
+        "CPU": {
+            "reason": "性能足夠，適合股市分析，價格更低。",
+            "name": "Intel 第八代 i5-8400",
+            "price": "4500"
+        },
+        "GPU": {
+            "reason": "性能適合股市分析，價格更低，能減少預算壓力。",
+            "name": "NVIDIA GeForce GTX 1050 Ti",
+            "price": "800"
+        },
+        "Memory": {
+            "reason": "16GB記憶體可滿足多螢幕運算需求，穩定性高。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "3000"
+        },
+        "Device": {
+            "reason": "需要穩定的電源供應，支持多螢幕顯示，且具備高效能。",
+            "name": "Corsair RM750x 750W 電源供應器",
+            "price": "5000"
+        },
+        "Power": {
+            "reason": "這款主板支持多螢幕輸出，適合股市分析運算需求。",
+            "name": "ASUS ROG Strix Z490-E Gaming",
+            "price": "8000"
+        },
+        "Fan": {
+            "reason": "高效能散熱，適合長時間運算，確保穩定性與耐用性。",
+            "name": "Noctua NH-U12S Redux",
+            "price": "2500"
+        }
+    },
+    "想要組一台約65000元的電腦，主要用於VR遊戲和一般辦公，有沒有推薦配置？": {
+        "Mother board": {
+            "reason": "支持高效能VR，擁有多個擴展槽，可滿足未來升級需求。",
+            "name": "ASUS ROG Strix B550-F Gaming (Wi-Fi)",
+            "price": "8500"
+        },
+        "Case": {
+            "reason": "強大的多核心性能，適合VR和遊戲需求。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "12900"
+        },
+        "CPU": {
+            "reason": "強大的多核心性能，適合VR遊戲和多任務處理。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "12900"
+        },
+        "GPU": {
+            "reason": "性能略低，但足以滿足VR遊戲需求，價格更具競爭力。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "15000"
+        },
+        "Memory": {
+            "reason": "高頻率和低延遲，適合VR遊戲和多任務處理。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "3200"
+        },
+        "Device": {
+            "reason": "提供穩定電力，支持高效能硬體運作。",
+            "name": "Corsair RM750x 750W 80 Plus Gold",
+            "price": "5000"
+        },
+        "Power": {
+            "reason": "高效能散熱，適合長時間運行VR遊戲，確保穩定性能。",
+            "name": "Noctua NH-U12S Redux",
+            "price": "2800"
+        },
+        "Fan": {
+            "reason": "提升散熱效能，確保CPU和GPU在VR遊戲中穩定運行。",
+            "name": "Noctua NF-A12x25 PWM 120mm風扇",
+            "price": "2000"
+        }
+    },
+    "請問40000元預算可以組出來能玩FPS、3A大作、多開模擬器遊戲的電腦嗎？": {
+        "Mother board": {
+            "reason": "性能強大，適合FPS與3A大作。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "13900"
+        },
+        "Case": {
+            "reason": "高效能，適合遊戲和模擬器運行。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "13900"
+        },
+        "CPU": {
+            "reason": "性能良好，適合遊玩FPS和3A大作。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "8000"
+        },
+        "GPU": {
+            "reason": "性能相近且價格更低，適合FPS和3A大作。",
+            "name": "NVIDIA GeForce GTX 1650",
+            "price": "600"
+        },
+        "Memory": {
+            "reason": "高頻寬和低延遲設計，適合多開模擬器和大型遊戲，提升整體效能。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "3500"
+        },
+        "Device": {
+            "reason": "具備強大的效能，適合玩FPS和3A大作，並可多開模擬器遊戲。",
+            "name": "主機板 ASUS ROG STRIX B550-F GAMING",
+            "price": "6000"
+        },
+        "Power": {
+            "reason": "高效率、穩定的電源可支援高效能硬體，確保遊戲流暢。",
+            "name": "海盜船 RM750x 750W 電源供應器",
+            "price": "5000"
+        },
+        "Fan": {
+            "reason": "提供良好的散熱效果，確保穩定運行高效能遊戲。",
+            "name": "Cooler Master Hyper 212 RGB",
+            "price": "2000"
+        }
+    },
+    "預算25000元，我想要一台電腦主要用於線上學習和偶爾寫程式，有建議配置嗎？": {
+        "Mother board": {
+            "reason": "適合線上學習和寫程式，性能穩定，兼容性好。",
+            "name": "AMD Ryzen 5 5600G",
+            "price": "8500"
+        },
+        "Case": {
+            "reason": "這款機殼擁有良好的散熱性能，適合學習與程式開發使用。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "1500"
+        },
+        "CPU": {
+            "reason": "性能足夠，適合線上學習和程式開發。",
+            "name": "AMD Ryzen 5 3400G",
+            "price": "5000"
+        },
+        "GPU": {
+            "reason": "針對學習需求，集成顯示性能已足夠。",
+            "name": "AMD Ryzen 5 5600G (集成顯示)",
+            "price": "0"
+        },
+        "Memory": {
+            "reason": "8GB記憶體可滿足線上學習及程式開發需求，且未來可擴充。",
+            "name": "Corsair Vengeance LPX 8GB DDR4 3200MHz",
+            "price": "1800"
+        },
+        "Device": {
+            "reason": "穩定供電，確保系統穩定運行。",
+            "name": "Corsair CV550 550W",
+            "price": "1500"
+        },
+        "Power": {
+            "reason": "增加記憶體可提高學習和程式開發的效率，散熱器確保穩定運行。",
+            "name": "Corsair Vengeance LPX 16GB DDR4 3200MHz",
+            "price": "3000"
+        },
+        "Fan": {
+            "reason": "有效提升散熱性能，確保穩定運行，適合長時間學習和編程使用。",
+            "name": "Cooler Master Hyper 212 Black Edition",
+            "price": "1800"
+        }
+    },
+    "請問75000元左右的預算能組一台什麼樣的4K影片剪輯機？": {
+        "Mother board": {
+            "reason": "支持最新的多核心處理器，適合4K影片剪輯，擴充性強。",
+            "name": "ASUS ROG Strix Z490-E Gaming",
+            "price": "10900"
+        },
+        "Case": {
+            "reason": "此款機殼設計通風良好，適合高效能散熱，支持大型顯卡與多硬碟安裝。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "1990"
+        },
+        "CPU": {
+            "reason": "強大的多核心性能，適合影片剪輯和渲染。",
+            "name": "Intel Core i7-10700K",
+            "price": "10900"
+        },
+        "GPU": {
+            "reason": "高效能顯示卡，適合4K影片剪輯，支持CUDA加速。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "20000"
+        },
+        "Memory": {
+            "reason": "高速、穩定，能滿足4K影片剪輯的需求。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "4800"
+        },
+        "Device": {
+            "reason": "穩定供電，支持高效能硬體運作。",
+            "name": "Corsair RM750x 750W",
+            "price": "4990"
+        },
+        "Power": {
+            "reason": "這款SSD讀寫速度快，能大幅提升影片剪輯效率。",
+            "name": "Samsung 970 EVO 1TB NVMe SSD",
+            "price": "4500"
+        },
+        "Fan": {
+            "reason": "靜音設計有效降低噪音，散熱表現優異，適合長時間影片剪輯使用。",
+            "name": "Noctua NH-U12S redux",
+            "price": "2500"
+        }
+    },
+    "我要組一台電腦，預算約35000元，主要用於玩《英雄聯盟》和做寫作業與論文研究，推薦配置是？": {
+        "Mother board": {
+            "reason": "適合遊戲和多任務處理，性能穩定且性價比高。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "8500"
+        },
+        "Case": {
+            "reason": "散熱性能好，設計美觀，適合長時間使用。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "2000"
+        },
+        "CPU": {
+            "reason": "性能穩定，適合遊戲和多任務處理，且性價比高。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "8500"
+        },
+        "GPU": {
+            "reason": "性能不錯，且價格較低，適合玩《英雄聯盟》。",
+            "name": "NVIDIA GeForce GTX 1650",
+            "price": "6000"
+        },
+        "Memory": {
+            "reason": "適合高效能遊戲和多任務處理，穩定性佳，對於寫作業和研究也有幫助。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "3000"
+        },
+        "Device": {
+            "reason": "提供穩定電力，支持您的高效能需求。",
+            "name": "Cooler Master MWE Bronze 650W",
+            "price": "2500"
+        },
+        "Power": {
+            "reason": "這款電源供應器穩定高效，支持未來升級，並且提供足夠的功率以滿足你的需求。",
+            "name": "Cooler Master MWE Bronze 650W",
+            "price": "2500"
+        },
+        "Fan": {
+            "reason": "散熱效果佳，運行穩定，適合長時間遊戲與寫作業。",
+            "name": "Cooler Master Hyper 212 EVO",
+            "price": "1200"
+        }
+    },
+    "預算大概55000元，尋找一台適合做3D動畫和模型設計的電腦，有推薦嗎？": {
+        "Mother board": {
+            "reason": "支持高效能CPU及GPU，適合3D動畫及模型設計需求。",
+            "name": "ASUS ROG Strix Z590-E Gaming WiFi",
+            "price": "12000"
+        },
+        "Case": {
+            "reason": "適合高效能運算，對3D動畫及模型設計有良好支持。",
+            "name": "Intel Core i7-11700K",
+            "price": "12000"
+        },
+        "CPU": {
+            "reason": "性能優越且價格更具競爭力，適合3D動畫和模型設計。",
+            "name": "Intel 第十代 i7-10700K",
+            "price": "11000"
+        },
+        "GPU": {
+            "reason": "性能足夠支持3D動畫和模型設計，價格更實惠。",
+            "name": "NVIDIA GeForce GTX 1650 Super",
+            "price": "6000"
+        },
+        "Memory": {
+            "reason": "高效能、穩定性強，適合3D動畫和模型設計，能夠快速處理大型檔案。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "2500"
+        },
+        "Device": {
+            "reason": "高效能的電源供應器，穩定支持高負載，適合3D動畫和模型設計。",
+            "name": "Corsair RM850x 850W 全模組電源供應器",
+            "price": "4500"
+        },
+        "Power": {
+            "reason": "高效能、適合3D動畫及模型設計，能夠流暢運行各種設計軟體。",
+            "name": "Cooler Master MasterLiquid ML240L RGB 水冷散熱器",
+            "price": "2500"
+        },
+        "Fan": {
+            "reason": "高效能散熱，適合長時間渲染3D動畫，保持穩定運行。",
+            "name": "Noctua NH-D15 銅管空冷散熱器",
+            "price": "4000"
+        }
+    },
+    "我是遊戲開發學生，預算大約85000元，需要一台能處理遊戲開發和渲染的高階機，有沒有好的配置？": {
+        "Mother board": {
+            "reason": "高效能的SSD可加速遊戲開發及渲染流程，提升整體效能。",
+            "name": "Samsung 970 EVO Plus 1TB NVMe M.2 SSD",
+            "price": "4000"
+        },
+        "Case": {
+            "reason": "這款主板支持最新的PCIe 4.0，適合高效能遊戲開發和渲染。",
+            "name": "ASUS ROG Strix Z690-E Gaming WiFi",
+            "price": "12000"
+        },
+        "CPU": {
+            "reason": "穩定供電，支持高性能硬體，確保系統運行流暢。",
+            "name": "Corsair RM850x 850W 80 Plus Gold",
+            "price": "5500"
+        },
+        "GPU": {
+            "reason": "性能良好，適合遊戲開發且價格更低。",
+            "name": "NVIDIA GeForce RTX 4070",
+            "price": "29000"
+        },
+        "Memory": {
+            "reason": "高效能，可滿足遊戲開發和渲染需求，並有良好的未來擴展性。",
+            "name": "Intel Core i7-12700K",
+            "price": "12000"
+        },
+        "Device": {
+            "reason": "高效能的散熱系統，確保CPU與GPU在高負載下穩定運行，適合遊戲開發及渲染需求。",
+            "name": "Cooler Master MasterLiquid ML360L RGB",
+            "price": "5000"
+        },
+        "Power": {
+            "reason": "具備850W的穩定輸出，能夠支持高效能GPU和CPU，適合遊戲開發和渲染。",
+            "name": "Corsair RM850x 850W 80 Plus Gold",
+            "price": "5500"
+        },
+        "Fan": {
+            "reason": "高效能散熱，確保長時間渲染過程中的穩定性，提升遊戲開發效率。",
+            "name": "Noctua NH-D15",
+            "price": "3500"
+        }
+    },
+    "預算20000元內，請問有適合辦公和輕度Photoshop使用的電腦配置嗎？": {
+        "Mother board": {
+            "reason": "支援Intel和AMD處理器，具備穩定性，適合辦公與輕度圖形處理使用。",
+            "name": "華碩 B450M-A II",
+            "price": "3590"
+        },
+        "Case": {
+            "reason": "此機殼設計通風良好，適合辦公和輕度Photoshop使用。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "1290"
+        },
+        "CPU": {
+            "reason": "性能適中，適合辦公與輕度圖像處理。",
+            "name": "AMD Ryzen 3 2200G",
+            "price": "1800"
+        },
+        "GPU": {
+            "reason": "性能足以應對辦公和輕度Photoshop需求，價格更優惠。",
+            "name": "NVIDIA GTX 1050 Ti",
+            "price": "2500"
+        },
+        "Memory": {
+            "reason": "性能穩定，適合辦公及輕度Photoshop，提升多工處理能力。",
+            "name": "Crucial 16GB DDR4 3200MHz",
+            "price": "2800"
+        },
+        "Device": {
+            "reason": "此配置的CPU和GPU性能優秀，適合辦公與輕度Photoshop使用，性價比高。",
+            "name": "電源供應器 500W",
+            "price": "1500"
+        },
+        "Power": {
+            "reason": "該配置具備良好的性能，適合辦公及輕度Photoshop使用，性價比高。",
+            "name": "完整電腦配置",
+            "price": "20000"
+        },
+        "Fan": {
+            "reason": "散熱性能佳，靜音設計，適合長時間辦公及輕度圖形處理使用。",
+            "name": "Cooler Master Hyper 212 EVO",
+            "price": "1590"
+        }
+    },
+    "想問下，有沒有大約50000元的電腦配置，適合玩大型開放世界遊戲的？": {
+        "Mother board": {
+            "reason": "支援最新的高效能CPU和GPU，適合大型遊戲需求。",
+            "name": "ASUS ROG Strix B550-F Gaming",
+            "price": "7500"
+        },
+        "Case": {
+            "reason": "這款機殼具有良好的散熱性能和擴展性，適合高效能遊戲配置。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "2500"
+        },
+        "CPU": {
+            "reason": "高效能，適合大型遊戲，具備良好的超頻能力。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "12000"
+        },
+        "GPU": {
+            "reason": "性能適中，適合遊玩大型開放世界遊戲，價格更低。",
+            "name": "NVIDIA GeForce GTX 1660 Ti",
+            "price": "6000"
+        },
+        "Memory": {
+            "reason": "高頻率和低延遲，能有效提升大型遊戲性能。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "3000"
+        },
+        "Device": {
+            "reason": "穩定高效，能夠支援您的高性能配置。",
+            "name": "Corsair RM750x 750W 金牌電源",
+            "price": "5000"
+        },
+        "Power": {
+            "reason": "這款顯示卡適合大型開放世界遊戲，提供流暢的遊戲體驗。",
+            "name": "NVIDIA GeForce RTX 3080",
+            "price": "24000"
+        },
+        "Fan": {
+            "reason": "提供優良散熱，確保CPU和GPU在高負荷下穩定運行。",
+            "name": "Noctua NH-D15",
+            "price": "3800"
+        }
+    },
+    "我需要一台電腦，預算大概45000元，主要用於音樂製作和錄音，需要特別注意什麼配件？": {
+        "Mother board": {
+            "reason": "支持高效能音訊處理，具備多個USB接口，適合音樂製作需求。",
+            "name": "ASUS ROG Strix B550-F Gaming",
+            "price": "6000"
+        },
+        "Case": {
+            "reason": "適合音樂製作，擁有多個核心，處理速度快。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "7200"
+        },
+        "CPU": {
+            "reason": "性能良好，價格更具優勢，適合音樂製作需求。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "7200"
+        },
+        "GPU": {
+            "reason": "高效能音樂製作，低延遲，適合錄音工作。",
+            "name": "NVIDIA GeForce GTX 1660 Super",
+            "price": "7000"
+        },
+        "Memory": {
+            "reason": "大容量和高速，適合音樂製作和多任務處理。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "4500"
+        },
+        "Device": {
+            "reason": "適合音樂製作，提供高品質音效與低延遲；可支援多軌錄音。",
+            "name": "Focusrite Scarlett 2i2音頻介面",
+            "price": "5000"
+        },
+        "Power": {
+            "reason": "穩定供電，確保音樂製作過程中不會發生意外斷電。",
+            "name": "Corsair RM650x 650W 80 Plus Gold",
+            "price": "4500"
+        },
+        "Fan": {
+            "reason": "具備良好的冷卻性能，適合長時間音樂製作時使用，保持穩定運行。",
+            "name": "Noctua NH-U12S redux",
+            "price": "2900"
+        }
+    },
+    "預算約60000元，想要一台電腦主要用於科學計算和寫程式，有推薦配置嗎？": {
+        "Mother board": {
+            "reason": "支持高效能CPU，具備多個擴展插槽，適合科學計算和程式開發。",
+            "name": "ASUS ROG Strix Z490-E Gaming",
+            "price": "12000"
+        },
+        "Case": {
+            "reason": "這款產品可以選擇性價比更高的替代品。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "3000"
+        },
+        "CPU": {
+            "reason": "性能足夠且價格更低，適合科學計算和程式開發。",
+            "name": "Intel Core i7-10700K",
+            "price": "11500"
+        },
+        "GPU": {
+            "reason": "性能良好且價格較低，適合科學計算和編程需求。",
+            "name": "NVIDIA GeForce GTX 1660 Super",
+            "price": "8000"
+        },
+        "Memory": {
+            "reason": "高效能，適合科學計算和多任務處理。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "5000"
+        },
+        "Device": {
+            "reason": "高效能電源供應，穩定運行高性能硬體，適合長時間計算任務。",
+            "name": "Corsair RM750x 750W",
+            "price": "5000"
+        },
+        "Power": {
+            "reason": "高效能供電，支援多種硬體配置，適合長時間運行科學計算。",
+            "name": "Corsair RM750x 750W",
+            "price": "5000"
+        },
+        "Fan": {
+            "reason": "高效能散熱，適合長時間運行科學計算與程式開發。",
+            "name": "Noctua NH-D15",
+            "price": "4500"
+        }
+    },
+    "請問我想組一台約70000元的電腦，主要用於虛擬機運行和大數據處理，有什麼建議？": {
+        "Mother board": {
+            "reason": "支持多個RAM插槽，適合虛擬機和大數據處理，擴展性強。",
+            "name": "ASUS ROG Strix X570-E Gaming",
+            "price": "12000"
+        },
+        "Case": {
+            "reason": "適合大數據處理和虛擬機運行，空間大且散熱良好。",
+            "name": "Fractal Design Meshify C",
+            "price": "3000"
+        },
+        "CPU": {
+            "reason": "擁有多核心高效能，適合虛擬機和大數據處理需求。",
+            "name": "AMD Ryzen 9 5900X",
+            "price": "16500"
+        },
+        "GPU": {
+            "reason": "大容量和高頻率可支持虛擬機和大數據處理。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "5000"
+        },
+        "Memory": {
+            "reason": "為虛擬機和大數據處理提供充足的記憶體，確保流暢運行。",
+            "name": "Corsair Vengeance LPX 64GB (2 x 32GB) DDR4 3200MHz",
+            "price": "10000"
+        },
+        "Device": {
+            "reason": "穩定高效，適合虛擬機和大數據處理，提供持久的電力支持。",
+            "name": "Corsair RM850x 850W 80 Plus Gold",
+            "price": "5000"
+        },
+        "Power": {
+            "reason": "提供出色的散熱性能，適合長時間高負載運行。",
+            "name": "Noctua NH-D15",
+            "price": "4000"
+        },
+        "Fan": {
+            "reason": "高效能與靜音設計，適合虛擬機與大數據處理。",
+            "name": "Noctua NF-A12x25 PWM",
+            "price": "1800"
+        }
+    },
+    "預算大約30000元，尋找一台適合初學者學習寫程式和偶爾玩遊戲的電腦，有推薦配置嗎？": {
+        "Mother board": {
+            "reason": "具備良好擴展性，支援多種CPU和記憶體，適合學習和遊戲使用。",
+            "name": "華碩 TUF B550M-PLUS",
+            "price": "3990"
+        },
+        "Case": {
+            "reason": "此款顯示卡性能優越，適合初學者和遊戲需求，性價比高。",
+            "name": "NVIDIA GeForce GTX 1660 Super",
+            "price": "8000"
+        },
+        "CPU": {
+            "reason": "性價比高，適合學習程式和輕度遊戲。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "9500"
+        },
+        "GPU": {
+            "reason": "性能適合初學者，價格更具性價比。",
+            "name": "NVIDIA GeForce GTX 1650 Super",
+            "price": "2000"
+        },
+        "Memory": {
+            "reason": "提供穩定的性能，適合寫程式和偶爾遊戲，性價比高。",
+            "name": "金士頓(Kingston) A2000 1TB NVMe SSD",
+            "price": "3500"
+        },
+        "Device": {
+            "reason": "為滿足學習編程和遊戲需求，選擇高效能電源和散熱器，確保穩定運行。",
+            "name": "海韻 (Seasonic) Focus GX-650 Gold 650W 電源供應器",
+            "price": "3800"
+        },
+        "Power": {
+            "reason": "這款風扇提供良好的散熱性能，適合長時間運行和遊戲使用。",
+            "name": "Cooler Master SickleFlow 120 V2",
+            "price": "700"
+        },
+        "Fan": {
+            "reason": "高效散熱，靜音運行，適合長時間使用，提升系統穩定性。",
+            "name": "Cooler Master Hyper 212 Black Edition",
+            "price": "1500"
+        }
+    },
+    "我要組裝一台預算約40000元的電腦，主要用來看4K電影和日常使用，有建議配置嗎？": {
+        "Mother board": {
+            "reason": "穩定供電，適合日常使用和觀看4K影片。",
+            "name": "海盜船 CV550 550W",
+            "price": "2500"
+        },
+        "Case": {
+            "reason": "此款電源效率高，支持未來升級，穩定性佳。",
+            "name": "海盜船 CV550 550W",
+            "price": "2500"
+        },
+        "CPU": {
+            "reason": "具備4K播放能力，適合家庭娛樂及日常使用，性能穩定。",
+            "name": "AMD Ryzen 7 5700G",
+            "price": "12000"
+        },
+        "GPU": {
+            "reason": "此GPU支持4K視頻播放，性能穩定，適合日常使用。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "12000"
+        },
+        "Memory": {
+            "reason": "適合4K影片播放與日常使用，搭配AMD Ryzen 7提升效能。",
+            "name": "Kingston Fury Beast 32GB (2 x 16GB) DDR4-3200",
+            "price": "5000"
+        },
+        "Device": {
+            "reason": "高效能SSD可加速系統啟動和應用載入，提升使用體驗。",
+            "name": "Samsung 970 EVO Plus 1TB NVMe SSD",
+            "price": "3000"
+        },
+        "Power": {
+            "reason": "良好的散熱性能，適合長時間觀看4K電影，並能保持穩定運行。",
+            "name": "Cooler Master Hyper 212 LED",
+            "price": "1500"
+        },
+        "Fan": {
+            "reason": "靜音運行，提供良好散熱效果，適合長時間觀看4K電影。",
+            "name": "Noctua NF-A12x25 PWM",
+            "price": "1200"
+        }
+    },
+    "想請問，85000元預算能組一台什麼樣的專業級遊戲機？希望能玩最新遊戲。": {
+        "Mother board": {
+            "reason": "高效能顯示卡，支援最新遊戲，提供流暢畫面體驗。",
+            "name": "NVIDIA GeForce RTX 3070",
+            "price": "25000"
+        },
+        "Case": {
+            "reason": "高速DDR4，支持多任務和遊戲流暢運行。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "6000"
+        },
+        "CPU": {
+            "reason": "搭配i9-12900K，性能強勁，適合最新遊戲需求。",
+            "name": "NVIDIA GeForce RTX 3070",
+            "price": "25000"
+        },
+        "GPU": {
+            "reason": "性能良好且價格更實惠，適合遊玩最新遊戲。",
+            "name": "NVIDIA GeForce GTX 1650",
+            "price": "3000"
+        },
+        "Memory": {
+            "reason": "提供穩定的供電，支持高效能顯卡。",
+            "name": "Corsair RM750x 750W",
+            "price": "5000"
+        },
+        "Device": {
+            "reason": "具備高效能的CPU與GPU，適合玩最新遊戲。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "12000"
+        },
+        "Power": {
+            "reason": "強大的處理性能，完美支持最新遊戲。",
+            "name": "AMD Ryzen 7 5800X",
+            "price": "12000"
+        },
+        "Fan": {
+            "reason": "專業級散熱，確保高效能運行及穩定性，適合最新遊戲需求。",
+            "name": "Cooler Master Hyper 212 RGB",
+            "price": "2500"
+        }
+    },
+    "預算約50000元，我想要一台電腦主要用於AI學習和研究，有沒有好的配置建議？": {
+        "Mother board": {
+            "reason": "支援最新的AMD Ryzen處理器，擁有強大的擴展性，適合AI研究需求。",
+            "name": "ASUS ROG Crosshair VIII Hero",
+            "price": "12000"
+        },
+        "Case": {
+            "reason": "強大的性能，適合AI學習和研究需求。",
+            "name": "AMD Ryzen 9 5900X",
+            "price": "16000"
+        },
+        "CPU": {
+            "reason": "該CPU擁有強大的多核心性能，適合AI計算需求。",
+            "name": "AMD Ryzen 9 5950X",
+            "price": "22000"
+        },
+        "GPU": {
+            "reason": "RTX 3050 性能足以應對AI學習，且價格較低。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "15000"
+        },
+        "Memory": {
+            "reason": "高效能，適合AI學習需求，穩定性佳，能夠提升運算效率。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "8000"
+        },
+        "Device": {
+            "reason": "高效能的顯示卡，適合AI運算和深度學習。",
+            "name": "NVIDIA GeForce RTX 3090",
+            "price": "30000"
+        },
+        "Power": {
+            "reason": "穩定的電源供應，支持高性能硬體，適合AI研究需要。",
+            "name": "海韻 (Seasonic) 850W 金牌電源供應器",
+            "price": "6000"
+        },
+        "Fan": {
+            "reason": "高效能散熱，適合長時間運行AI模型，確保系統穩定。",
+            "name": "Noctua NH-D15",
+            "price": "4500"
+        }
+    },
+    "請問一下，25000元預算可以組一台適合高中生用的課業學習電腦嗎？主要是寫作業和上網。": {
+        "Mother board": {
+            "reason": "這款主機板具備穩定性與擴展性，適合學習和日常使用。",
+            "name": "華碩 PRIME B560M-A",
+            "price": "3500"
+        },
+        "Case": {
+            "reason": "具備良好散熱與擴展性，適合長時間使用和升級。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "1800"
+        },
+        "CPU": {
+            "reason": "這款CPU性能優越，適合日常學習和多任務處理，性價比高。",
+            "name": "Intel Core i5-11400",
+            "price": "5800"
+        },
+        "GPU": {
+            "reason": "這款顯示卡性能穩定，適合日常學習和上網，並且未來升級空間大。",
+            "name": "NVIDIA GeForce GTX 1650",
+            "price": "6000"
+        },
+        "Memory": {
+            "reason": "穩定性高，適合日常使用，且具備良好的擴展性。",
+            "name": "Corsair CV450 450W 電源供應器",
+            "price": "1500"
+        },
+        "Device": {
+            "reason": "這款SSD速度快，可大幅提升開機和讀取速度，適合學習需求。",
+            "name": "Samsung 970 EVO 500GB SSD",
+            "price": "2000"
+        },
+        "Power": {
+            "reason": "穩定性高，支持所有主流硬體配置。",
+            "name": "Corsair CV550 550W 電源供應器",
+            "price": "1800"
+        },
+        "Fan": {
+            "reason": "此風扇靜音效果佳，散熱性能優越，適合長時間學習使用。",
+            "name": "Cooler Master Hyper 212 RGB",
+            "price": "1500"
+        }
+    },
+    "我是平面設計師，預算大概55000元，需要一台適合設計工作的電腦，有推薦嗎？": {
+        "Mother board": {
+            "reason": "支持高效能的多核心處理，適合平面設計軟體運行。",
+            "name": "華碩 ROG STRIX Z590-E GAMING WIFI",
+            "price": "12000"
+        },
+        "Case": {
+            "reason": "設計工作需要強大散熱和擴展性，這款機殼提供優良的通風和管理線材的功能。",
+            "name": "NZXT H510",
+            "price": "3000"
+        },
+        "CPU": {
+            "reason": "高效能設計，適合平面設計和多任務處理，支援最新技術。",
+            "name": "Intel Core i7-12700K",
+            "price": "12000"
+        },
+        "GPU": {
+            "reason": "適合設計工作，強大的性能支援大型設計軟體。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "15000"
+        },
+        "Memory": {
+            "reason": "高頻率和雙通道設計，適合進行大型設計軟體的運行與多任務處理。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "3500"
+        },
+        "Device": {
+            "reason": "性能穩定，適合高效能設計工作，可輕鬆處理大型檔案。",
+            "name": "Corsair RM850x 850W 鋼壓電源供應器",
+            "price": "4500"
+        },
+        "Power": {
+            "reason": "提供良好的散熱性能，適合長時間使用及高負荷運行，對設計工作有幫助。",
+            "name": "Cooler Master MasterLiquid ML240L RGB",
+            "price": "3000"
+        },
+        "Fan": {
+            "reason": "靜音設計與高效散熱，適合長時間設計工作，保護硬體壽命。",
+            "name": "Noctua NF-A12x25 PWM 風扇",
+            "price": "1500"
+        }
+    },
+    "預算大約70000元，想要一台適合專業影像處理和影片剪輯的電腦，有什麼建議配置？": {
+        "Mother board": {
+            "reason": "支援最新的Intel和AMD處理器，具備多個擴展插槽，適合專業影像處理。",
+            "name": "ASUS ProArt Z490-Creator",
+            "price": "7500"
+        },
+        "Case": {
+            "reason": "高效能，多核心設計，適合影像處理和影片剪輯。",
+            "name": "Intel Core i9-11900K",
+            "price": "15500"
+        },
+        "CPU": {
+            "reason": "性能足夠，適合影像處理且價格更低。",
+            "name": "Intel Core i7-12700K",
+            "price": "11000"
+        },
+        "GPU": {
+            "reason": "性能稍遜但足以滿足影像處理需求。",
+            "name": "NVIDIA GeForce RTX 3070",
+            "price": "16000"
+        },
+        "Memory": {
+            "reason": "高頻率和雙通道設計，適合影像處理和剪輯，提升整體性能。",
+            "name": "Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz",
+            "price": "4000"
+        },
+        "Device": {
+            "reason": "高效能電源供應器，穩定供電，支持高性能顯卡。",
+            "name": "Corsair RM850x 850W",
+            "price": "5700"
+        },
+        "Power": {
+            "reason": "提供穩定的電力供應，適合高效能運作。",
+            "name": "Corsair RM850x 850W",
+            "price": "5700"
+        },
+        "Fan": {
+            "reason": "具低噪音、高效能設計，適合長時間影像處理使用。",
+            "name": "Noctua NH-D15",
+            "price": "3500"
+        }
+    },
+    "我想組一台電腦，預算約60000元，主要用於玩模擬飛行遊戲，有沒有推薦的配置？": {
+        "Mother board": {
+            "reason": "支持高效能CPU，穩定性佳，非常適合模擬飛行遊戲。",
+            "name": "ASUS ROG Strix B550-F Gaming",
+            "price": "8790"
+        },
+        "Case": {
+            "reason": "高散熱性能，空間充足，適合安裝大型顯卡和多風扇配置。",
+            "name": "Cooler Master MasterBox Q300L",
+            "price": "2490"
+        },
+        "CPU": {
+            "reason": "高效能，適合模擬飛行遊戲，能夠提供流暢的遊戲體驗。",
+            "name": "AMD Ryzen 5 5600X",
+            "price": "7500"
+        },
+        "GPU": {
+            "reason": "適合模擬飛行遊戲，提供高效能和穩定性。",
+            "name": "NVIDIA GeForce RTX 3060",
+            "price": "19900"
+        },
+        "Memory": {
+            "reason": "高頻率和低延遲，適合模擬飛行遊戲，提升遊戲流暢度。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "2800"
+        },
+        "Device": {
+            "reason": "高效能且穩定，適合高負載遊戲。",
+            "name": "Corsair RM650 650W 80 PLUS Gold",
+            "price": "3990"
+        },
+        "Power": {
+            "reason": "高效率且穩定，確保系統在高負載下運行良好。",
+            "name": "Corsair RM750 750W 80 PLUS Gold",
+            "price": "4590"
+        },
+        "Fan": {
+            "reason": "此風扇具有效能高、靜音運行，能有效降低系統溫度，適合長時間遊玩模擬飛行遊戲。",
+            "name": "Noctua NF-P12 redux-1700 PWM",
+            "price": "890"
+        }
+    },
+    "請問有沒有大約35000元的電腦配置推薦，適合用於網頁開發和輕度遊戲？": {
+        "Mother board": {
+            "reason": "支持最新的AMD Ryzen CPU，性能穩定，適合開發和輕度遊戲。",
+            "name": "ASUS TUF Gaming B550-PLUS",
+            "price": "7000"
+        },
+        "Case": {
+            "reason": "更低價格的選擇，性能不影響整體配置。",
+            "name": "AMD Ryzen 5 3400G",
+            "price": "5000"
+        },
+        "CPU": {
+            "reason": "性能相似，但價格更低，適合網頁開發與輕度遊戲。",
+            "name": "AMD Ryzen 5 3400G",
+            "price": "6000"
+        },
+        "GPU": {
+            "reason": "性能足夠，適合網頁開發及輕度遊戲。",
+            "name": "NVIDIA GeForce GTX 1650 Super",
+            "price": "6000"
+        },
+        "Memory": {
+            "reason": "16GB容量，足夠支持網頁開發和輕度遊戲。",
+            "name": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz",
+            "price": "4000"
+        },
+        "Device": {
+            "reason": "穩定供電，支持高效能組件運行。",
+            "name": "Corsair CV550 550W",
+            "price": "2500"
+        },
+        "Power": {
+            "reason": "這款電源供應器穩定可靠，能提供足夠電力，適合網頁開發和輕度遊戲。",
+            "name": "Corsair CV550 550W",
+            "price": "2500"
+        },
+        "Fan": {
+            "reason": "這款風扇靜音效果佳，散熱性能優越，適合網頁開發及輕度遊戲使用。",
+            "name": "Cooler Master Hyper 212 Black Edition",
+            "price": "1500"
+        }
+    }
+}
